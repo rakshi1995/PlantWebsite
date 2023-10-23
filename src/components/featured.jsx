@@ -15,7 +15,7 @@ const Featured = () => {
             Our plants are 100% organic,<br/>we don't use pesticides or<br/>harmful chemicals.
             But please don't eat them.
           </p>
-          <button className="bg-white text-black font-semibold py-2 px-10 mb-4  hover:bg-blue-600 shadow-md border-b-2 border-black">
+          <button className="bg-white text-black font-semibold py-2 px-10 mb-4 ml-12 hover:bg-blue-600 shadow-md border-b-2 border-black">
             Shop All Favorites
           </button>
         </div>

@@ -18,6 +18,7 @@ const Body = () => {
         {/* Right side with image */}
         <div className="md:w-1/2 pl-48">
           <img
+          
             src="pictures/image.jpeg"
             alt="Your Image"
             class="w-auto h-auto rounded-md"

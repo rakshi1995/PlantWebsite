@@ -1,4 +1,9 @@
 import React from 'react';
+import Product from '../pages/Product';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+
+
+
 
 const Featured = () => {
   return (
@@ -19,7 +24,7 @@ const Featured = () => {
           <img
               src="pictures/plant1.png"
               alt=" Plant 1"
-              class=" h-80 w-50 object-cover  mb-2 max-w-full"
+              className=" h-80 w-50 object-cover  mb-2 max-w-full"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-white p-2 text-sm">
               <p className="text-gray-600">Plant 1</p>
@@ -30,7 +35,7 @@ const Featured = () => {
           <img
               src="pictures/plant2.png"
               alt="Plant2 1"
-              class=" h-80 w-50 object-cover  mb-2 max-w-full"
+              className=" h-80 w-50 object-cover  mb-2 max-w-full"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-white p-2 text-sm">
               <p className="text-gray-600">Plant 2</p>
@@ -38,11 +43,14 @@ const Featured = () => {
             </div>
           </div>
           <div className="relative w-1/3">
+          <Link to="/product">
           <img
               src="pictures/plant3.png"
               alt="plant3 "
-              class=" h-80 w-50 object-cover  mb-2 max-w-full"
+              className=" h-80 w-50 object-cover  mb-2 max-w-full"
             />
+            </Link> 
+          
             <div className="absolute bottom-0 left-0 right-0 bg-white p-2 text-sm">
               <p className="text-gray-600">Plant 3</p>
               <p className="text-gray-800">50&euro;</p>
